@@ -1,6 +1,7 @@
 # WundermanApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+Please install all dependencies via Node Package Manager using command 'npm i'. Feel free to use any other package manager.
 
 ## Development server
 
