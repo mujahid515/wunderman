@@ -1,0 +1,30 @@
+.container {
+  padding: 20px;
+}
+.mat-expansion-panel {
+  background: aqua;
+  color: #000;
+  margin-bottom: 10px !important;
+}
+::ng-deep .mat-expansion-panel-header {
+  height: auto!important;
+  padding: 10px !important;
+}
+::ng-deep .mat-expansion-panel-content {
+  background: #fff;
+}
+::ng-deep .mat-expansion-panel-header-title {
+  color: blue;
+}
+::ng-deep .mat-expansion-indicator {
+  display: none;
+}
+.plusIcon {
+  position: absolute;
+  right: 40px;
+}
+@media (hover: none) {
+  .mat-expansion-panel:not(.mat-expanded):not([aria-disabled=true]) .mat-expansion-panel-header:hover {
+    background: aqua;
+  }
+}
